@@ -1,0 +1,14 @@
+Documentation on project:
+	My test file drv.c is what I used in order to test my project. What I basically did was build the project piece by piece (starting with the basic 
+example of malloc) and add the rest one by one. I first built my malloc method to just add things on to the end (including the linked list structure) and then 
+made a complimentary free to clear it out. Then, I added the coalesce function, which dealt with two adjacent nodes that could arise anywhere throughout my 
+program. Last, I implemented the worst_fit part, which was easy considering I had the basic framework in place.
+
+As for testing the project, I inserted print statements in my malloc.c function in order to debug the memory addresses along the way. That was the primary way 
+that I could identify and fix the multitude of errors I received while programming the project. In order to test what I though was the finished product 
+(multiple times :P) I updated my drv.c function with different combinations of mallocs and frees to make sure that memory was allocated how it should be. I am 
+pretty sure that I have accounted for just about every scenario as far as allocations, freeing, and reallocations go. If I haven.t accounted for any scenarios, 
+I.m sure it is just an oversight as there are potentially a lot of combinations that can occur. I am confident that the framework of my two methods is 
+structurally sound enough to handle the vast possibilities that are freeing and allocating memory!
+If you have any questions about my project, just let me know. 
+

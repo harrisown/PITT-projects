@@ -1,0 +1,21 @@
+<html>
+<h1> Hav fun playing!</h1><hr><br>
+<script src="http://db.cs.pitt.edu/courses/cs1520/spring2013/assign/sudoku.js"></script>
+<script src="genCopy.js"></script>
+
+
+<body>
+
+<p id="counter">Currently on move:<span id="counterNumber">1</span><pre></pre><input id="clickMe" type="button" value="Undo"/>
+</p>
+</body>
+<script>
+move_counter = 1;
+solvedCells = 0;
+
+initialize(initBoard);
+sanitize_board(current_table,solved_table);
+
+</script>
+
+</html>
